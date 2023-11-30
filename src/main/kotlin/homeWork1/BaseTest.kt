@@ -1,5 +1,7 @@
-class BaseTest {
+package homeWork1
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Util.println
 
+class BaseTest {
     fun beforeFirst() {
 
     }
@@ -13,9 +15,9 @@ class BaseTest {
     }
 
     fun primaryStep() {
-            println("primaryStep started")
-            println("primaryStep finished")
-        }
+        println("primaryStep started")
+        println("primaryStep finished")
+    }
 
     fun afterFirst() {
     }
