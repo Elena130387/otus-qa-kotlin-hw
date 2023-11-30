@@ -1,0 +1,10 @@
+fun main() {
+
+    val baseTest = BaseTest()
+    val test = TestRunnerClass()
+
+fun testFun(){
+ println("Primary testFun started")
+}
+    test.runTest(baseTest) { testFun() }
+}
